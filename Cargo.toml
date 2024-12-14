@@ -1,0 +1,15 @@
+[package]
+name = "GAAC-hackathon-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cuckoofilter = "0.5.0"
+[dependencies.xxhash-rust]
+version = "0.8.12"
+features = ["xxh3", "const_xxh3"]
+count-min-sketch = "0.1.8"
+xxhash-rust = "0.8"
+cityhash = "0.2"
+murmur3 = "0.5"
+
